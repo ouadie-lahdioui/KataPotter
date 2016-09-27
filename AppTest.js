@@ -1,9 +1,16 @@
 var chai = require('chai');
 var expect = require('chai').expect;
-var cart = require('./app/cart');
+var Cart = require('./app/cart').Cart;
 
-describe('Test', function() {
-    it('Should confirm tha is work correctly', function() {
+describe('Calculate', function() {
+
+    let cart;
+
+    beforeEach(function() {
+        cart = new Cart();
+    });
+
+    it('Should work correctly', function() {
         // Given
         // When
         // Then
@@ -16,4 +23,5 @@ describe('Test', function() {
         // Then
         expect(cart.calculate()).to.equal(0);
     });
+
 });

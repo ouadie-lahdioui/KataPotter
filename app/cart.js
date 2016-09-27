@@ -1,3 +1,11 @@
-exports.calculate = function() {
-    return 0;
+exports.Cart = class Cart {
+
+    constructor() {
+        console.log('Constructor');
+    }
+
+    calculate() {
+        return 0;
+    }
+
 };
