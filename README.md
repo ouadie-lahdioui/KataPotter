@@ -35,6 +35,7 @@ Run `mocha AppTest.js` to execute the unit tests via [Mocha](https://mochajs.org
 ## Used tools
 
 [Mocha: Rhe fun, simple, flexible JavaScript test framework](https://mochajs.org/).
+
 [chaijs: Assertion Library](http://chaijs.com/).
 
 
