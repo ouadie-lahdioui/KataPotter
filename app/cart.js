@@ -1,1 +1,3 @@
-exports.cart = class Cart {}
+exports.calculate = function() {
+    return 0;
+};
