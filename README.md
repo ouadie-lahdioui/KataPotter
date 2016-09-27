@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="https://github.com/ouadie-lahdioui/AngularPokedex/blob/master/images/harry.png"> 
+	<img src="https://github.com/ouadie-lahdioui/KataPotter/blob/master/images/harry.png"> 
 </p>
 
 # KataPotter
