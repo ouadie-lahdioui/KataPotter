@@ -1,11 +1,19 @@
-exports.Cart = class Cart {
+const BOOK_PRICE = 8;
+const BOOKS = {
+    A: 'A',
+    B: 'B',
+    C: 'C',
+    D: 'D'
+}
 
-    constructor() {
-        console.log('Constructor');
+class Cart {
+
+    calculate(books) {
+        return books.length * 8;
     }
 
-    calculate() {
-        return 0;
-    }
+}
 
-};
+exports.BOOKS = BOOKS;
+exports.BOOK_PRICE = BOOK_PRICE;
+exports.Cart = Cart;
